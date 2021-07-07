@@ -1,0 +1,38 @@
+
+<%- include("partials/header"); -%>
+<div class="joinus">
+  <div class="joinusleft">
+    <h2>Interested in joining us?</h2>
+    <p>We are a non-profitable organization which provide aid to the people who need help.</p>
+
+    <h4>Why join us?</h4>
+    <p>Well, you could join in our campaigns which are held all around the country to help others and, you could be part of it!</p>
+    <p>Join us in our campaigns if you also want to help.</p>
+  </div>
+
+<div class="joinusright">
+  <form class="" action="/joinus" method="post">
+    <h4>Fill up this form to Join us</h4>
+    <p>We will surely let you know if there's a nearby Medilife campaign running by.</p>
+    <div class="form-group">
+      <label>First Name</label>
+      <input class="form-control" type="text" name="firstname"  autocomplete="off">
+      <label>Last Name</label>
+      <input class="form-control" type="text" name="lastname" autocomplete="off">
+      <label>Address</label>
+      <input class="form-control" type="text" name="address" autocomplete="off">
+      <label>Phone Number</label>
+      <input class="form-control" type="Number" name="phonenumber"  autocomplete="off">
+      <label>Email address</label>
+      <input class="form-control" type="email" name="email" autocomplete="off">
+      <label>Comment</label>
+      <textarea class="form-control"  name="comment" rows="3" cols="80" placeholder="Comment if you want say anything to us."></textarea>
+    </div>
+    <button class="donatebutton" type="submit" name="button">JOIN!!</button>
+  </form>
+
+</div>
+
+</div>
+
+<%- include("partials/footer"); -%>
