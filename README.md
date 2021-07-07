@@ -11,7 +11,7 @@ Windows:
 ```
 #clone the repo
 git clone https://github.com/Aryan-Nanam/Medilife-BlogWebsite.git
-cd medilife-blogWebsite
+cd Medilife-BlogWebsite
 
 #install node and npm
 npm install
