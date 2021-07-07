@@ -10,7 +10,7 @@ This website is just a model and not a completed version, as it doesn't contain 
 Windows:
 ```
 #clone the repo
-git clone https://github.com/Aryan-Nanam/medilife-blogWebsite.git
+git clone https://github.com/Aryan-Nanam/Medilife-BlogWebsite.git
 cd medilife-blogWebsite
 
 #install node and npm
